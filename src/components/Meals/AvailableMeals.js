@@ -37,7 +37,7 @@ export default function AvailableMeals() {
       price={meal.price}
     />
   ));
-  console.log(mealLists);
+
   return (
     <section className={classes.meals}>
       <Card>
